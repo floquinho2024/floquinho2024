@@ -1,6 +1,11 @@
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - '*.xlsx' # Especifique os padrões de caminho dos arquivos que deseja monitorar
   schedule:
-    - cron:  "*/5 * * * *"
+    - cron: "0 */2 * * *" # Agendamento a cada 2 horas
   workflow_dispatch:
 
 name: 01-rscript
