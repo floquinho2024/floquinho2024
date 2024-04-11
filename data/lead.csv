@@ -1,11 +1,70 @@
-"Data","Nome","Sexo","Idade","Estado","Município","Celular","Campanha","Interesse","Informações adicionais","Contato 1","Contato 2","Contato 3","Contato 4","Status"
-2022-03-14,"Anna","Feminino",33,"Bahia","Paulo Afonso",79999999999,"Lago Aurora","Limpeza",NA,NA,NA,NA,NA,"Fechou orçamento"
-2023-01-15,"Rodrigo","Masculino",39,"Sergipe","Aracaju",79999999999,"Ponte Metálica","Limpeza e restauração","Mora em Aracaju, mas sempre vem a Paulo Afonso",NA,NA,NA,NA,"Fechou orçamento"
-2023-04-16,"Miguel","Masculino",5,"Bahia","Paulo Afonso",75999999999,"Blusa vermelha","Revisão",NA,NA,NA,NA,NA,"Pendente"
-2024-02-18,"Creuza","Feminino",65,"Bahia","Paulo Afonso",75999999999,"Ponte Metálica","Prótese",NA,"Contato dia 16","Contato dia 18",NA,NA,"Fechou orçamento"
-2024-03-01,"Eufrozina","Feminino",67,"Bahia","Paulo Afonso",75999999999,"Ponte Metálica","Limpeza",NA,NA,NA,NA,NA,"Não respondeu"
-2024-03-17,"Gustavo","Masculino",13,"Bahia","Paulo Afonso",75999999999,"Ponte Metálica","Revisão",NA,"Contato 17/03",NA,NA,NA,"Fechou orçamento"
-2024-03-18,"Felícita","Feminino",60,"Bahia","Paulo Afonso",75999999999,"Ponte Metálica","Implante",NA,"Contato 18/03",NA,NA,NA,"Agendou"
-2024-03-20,"João Paulo","Masculino",37,"Bahia","Paulo Afonso",75999999999,"Novembro azul","Implante",NA,NA,NA,NA,NA,"Compareceu"
-2024-03-22,"Iris","Feminino",17,"Sergipe","Aracaju",79999999999,"Blusa vermelha","Restauração",NA,NA,NA,NA,NA,"Compareceu"
-2024-03-22,"Zefinha","Feminino",68,"Bahia","Paulo Afonso",75999999999,"Lago Aurora","Implante",NA,NA,NA,NA,NA,"Agendou"
+"Data","Nome","Sexo","Idade","Estado","Município","Celular","Campanha","Interesse","Informações adicionais","Contato 1","Contato 2","Contato 3","Contato 4","Status","...16"
+2024-04-01,"Maria Josefa Ferreira","Feminino",NA,"Alagoas","Delmiro Gouveia",82999820812,"Blusa vermelha",NA,"Delmiro G.","lig 01/04 (atendeu)",NA,NA,NA,"Agendou","agendou para sex 05/04 AM"
+2024-04-01,"Mauriza ~Railan Vaqueiro",NA,NA,NA,NA,82981603206,"Ponte Metálica",NA,"atendeu lig, falou que tem interesse em implantes","lig 01/04 (chamou /caixa de msg) aúdio wpp","lig 03/04 atendeu e fica calado | 03/04 +1 aúdio wpp",NA,NA,"Pendente","cvs via wpp - mandar aúdio"
+2024-04-02,"~jose Alves","Masculino",NA,NA,NA,75988434581,"Ponte Metálica",NA,"BLOQUEOU???","lig 01/04 (chamou não atendeu) aúdio wpp",NA,NA,NA,"Não respondeu","sem resposta até o momento"
+2024-04-02,"Ivone | Ivone Maria","Feminino",NA,NA,NA,75988251572,"Ponte Metálica",NA,NA,"02/04 lig (atendeu e agendou)",NA,NA,NA,"Compareceu","COMPARECEU  ter 02/04 PM"
+2024-04-02,"Magda Alves Delgado Rodrigues Cassimiro","Feminino",NA,NA,NA,75991029128,"Lago Aurora","Prótese total","interesse em prótese total","02/04 lig (tututu)  cvs wpp",NA,NA,NA,"Agendou","agendou para sab 06/04 AM"
+2024-04-02,"~emoji",NA,NA,NA,NA,82996681520,"Lago Aurora",NA,NA,"02/04 lig (caixa de msg) aúdio wpp  s/resposta lig 16:50h atendeu disse que estava viajando|ligar 03/04 09h e 10h","ttvs de lig 03/04 AM s/retorno| msgs wpp",NA,NA,"Não respondeu","ctt por lig s/retorno, msg wpp"
+2024-04-02,"José Severino dos Santos Juvenal","Masculino",NA,NA,NA,75988049330,"Ponte Metálica","Prótese","interessado em prótese","02/04 lig (não atendeu) aúdio wpp",NA,NA,NA,"Agendou","agendou qua 10/04 PM"
+2024-04-03,"Fernanda Rodrigues de Araujo","Feminino",NA,NA,NA,87981783612,"Lago Aurora",NA,NA,"03/04 lig. (chamou",NA,NA,NA,"Não respondeu",NA
+2024-04-03,"Dagmar",NA,NA,NA,NA,75992144461,"Lago Aurora",NA,"qual rua fica, buscando tratamento ortodôntico para o filho","03/04 lig (grave seu recado) aúdio wpp",NA,NA,NA,"Pendente","ficou dever um dia para tarzer o filho para avaliação"
+2024-04-03,"Maria Selma dos Santos Alcantara","Feminino",NA,NA,NA,75988555238,"Blusa vermelha",NA,NA,"já havia reagido antes  veio até a recepção e encaixe para o atendimento",NA,NA,NA,"Compareceu","COMPARECEU 03/04 QUA PM"
+2024-04-03,"Fernando Moreira da Silva","Masculino",NA,NA,NA,75999681714,"Blusa vermelha",NA,NA,NA,NA,NA,NA,"Compareceu","COMPARECEU 03/04 QUA PM"
+2024-04-03,"Roberio Severo dos Santos","Masculino",NA,NA,NA,87998231341,"Ponte Metálica",NA,NA,"04/04 msg wpp",NA,NA,NA,NA,NA
+2024-04-03,"~Roberto","Masculino",NA,NA,NA,82991105401,"Blusa vermelha",NA,NA,"04/04 msg wpp",NA,NA,NA,NA,NA
+2024-04-03,"~josinaldo","Masculino",NA,NA,NA,75988626153,NA,NA,NA,"04/04 msg wpp",NA,NA,NA,NA,NA
+2024-04-03,"~elpidio","Masculino",NA,NA,NA,45998000203,NA,NA,NA,"04/04 msg wpp",NA,NA,NA,NA,NA
+2024-04-03,"~fernando","Masculino",NA,NA,NA,75981426457,"Lago Aurora",NA,NA,"04/04 msg wpp",NA,NA,NA,NA,NA
+2024-04-04,"~Gilberto","Masculino",NA,NA,NA,75982607830,"Lago Aurora",NA,NA,"04/04 msg wpp",NA,NA,NA,NA,NA
+2024-04-04,"Nelson de Jesus dos Santos","Masculino",NA,NA,NA,75997002546,"Blusa vermelha",NA,"querendo saber valor.É de Jeremoabo","04/04 msg wpp",NA,NA,NA,"Não respondeu","BLOQUEOU??  Msg não chegou"
+2024-04-04,"~Maria (Maria Aparecida Santos Araujo)","Feminino",NA,NA,NA,75988360462,"Ponte Metálica",NA,"Esta realizando consultas medicas(dor no joelho) e cuida da mãe acamada","04/04 msg wpp","06/04 ligação",NA,NA,"ligar dia 30/04",NA
+2024-04-04,"~Edson","Masculino",NA,NA,NA,75988247498,"Ponte Metálica",NA,NA,"04/04 msg wpp",NA,NA,NA,"Não respondeu","sem resposta"
+2024-04-04,"Luana  Teixeira dos Santos","Feminino",NA,NA,NA,75999120304,"Ponte Metálica",NA,"disse que tá precisando de tratamento, muita coisa","04/04 aúdio wpp",NA,NA,NA,"Pendente","disse que não tem interesse em fazer agora"
+2024-04-04,"~Elisalva","Feminino",NA,"Bahia","Macururé",75999063868,"Ponte Metálica","Prótese","valor de prótese, mora me macururé","04/04 aúdio wpp",NA,NA,NA,"Não respondeu","sem resposta"
+2024-04-04,"Raquel","Feminino",NA,NA,NA,75991875914,"Ponte Metálica",NA,NA,"05/04 aúdio wpp",NA,NA,NA,NA,NA
+2024-04-05,"~vereador gato","Masculino",NA,NA,NA,75999119556,"Lago Aurora",NA,NA,"05/04 lig (tututu) aúdio wpp",NA,NA,NA,NA,NA
+2024-04-05,"Elisangela Ferreira Alves","Feminino",NA,NA,NA,75988387263,"Ponte Metálica",NA,NA,"05/04 cvs wpp",NA,NA,NA,"Compareceu","COMPARECEU  SEX 05/04 PM"
+2024-04-05,"~erivania mari 32","Feminino",NA,NA,NA,75991803755,"Ponte Metálica",NA,NA,"05/04 aúdio wpp",NA,NA,NA,NA,NA
+2024-04-05,"~Otacilio Baiano","Masculino",NA,NA,NA,35997077229,"Ponte Metálica",NA,NA,"05/04 aúdio wpp",NA,NA,NA,"Pendente","agendar depois de quarta"
+2024-04-05,"~Elias","Masculino",NA,NA,NA,75999337988,"Lago Aurora",NA,NA,"05/04 aúdio wpp",NA,NA,NA,NA,NA
+2024-04-05,"emoji",NA,NA,NA,NA,82991291868,"Lago Aurora",NA,NA,"05/04 aúdio wpp",NA,NA,NA,NA,NA
+2024-04-05,"~Alves",NA,NA,NA,NA,74998004631,"Lago Aurora",NA,NA,"05/04 aúdio wpp",NA,NA,NA,NA,NA
+2024-04-05,"~clebson sabino","Masculino",NA,NA,NA,75992497564,"Lago Aurora",NA,NA,"05/04 aúdio wpp",NA,NA,NA,NA,NA
+2024-04-05,"Genilson Cardoso","Masculino",NA,NA,NA,31996851984,"Ponte Metálica","Prótese","paciente não esta satisfeito com a prótese removível","05/04 cvs wpp",NA,NA,NA,"Agendou","agendou qua 10/04 PM"
+2024-04-05,"~Rodrigo","Masculino",NA,NA,NA,75983404714,"Lago Aurora",NA,NA,"05/04lig ( não atendeu) aúdio wpp",NA,NA,NA,NA,NA
+2024-04-05,"Marcos","Masculino",NA,NA,NA,82996038928,"Lago Aurora",NA,NA,"05/04 ligação atendeu",NA,NA,NA,"Agendou","agendou qua 10/04 AM 10:00h"
+2024-04-05,"Cícero","Masculino",NA,NA,NA,22999526906,"Lago Aurora",NA,NA,"06/04  Dra. Anna aúdio wpp",NA,NA,NA,NA,NA
+2024-04-05,"~Delson Honório","Masculino",NA,NA,NA,75991377577,"Vídeo avaliação",NA,"Atendeu, quando me indentiquei, ficou mudo e desligou.","05/04 aúdio wpp","08/04  ligação",NA,NA,NA,NA
+2024-04-05,"Gesse","Masculino",NA,NA,NA,82999108404,"Blusa vermelha",NA,NA,"05/04 Dra. Anna aúdio wpp",NA,NA,NA,NA,NA
+2024-04-06,"Lindinez Honorio Bernado","Feminino",NA,NA,NA,82981921368,"Ponte Metálica",NA,NA,"06/04 Dra Anna aúdio wpp",NA,NA,NA,NA,NA
+2024-04-06,"Maria das Graças Silva","Feminino",NA,NA,NA,82996274490,"Lago Aurora",NA,NA,"06/04 Dra. Anna aúdio wpp",NA,NA,NA,NA,NA
+2024-04-06,"~Jairo","Masculino",NA,NA,NA,82981228071,"Lago Aurora",NA,NA,"06/04 Dra. Anna aúdio wpp + ligação não atendeu",NA,NA,NA,NA,NA
+2024-04-06,"~Pastorzinho da Elétrica- Flávio Roberto Gomes Teixeira Junior","Masculino",NA,NA,NA,75988748286,"Lago Aurora",NA,"Esta trabalhando em outra cidade(chega entre o dia 18/20  ligarpara agendar)","06/04 Aúdio+ ligação",NA,NA,NA,NA,NA
+2024-04-06,"~Bethy","Feminino",NA,"Bahia","Jeremoabo",75999256961,"Ponte Metálica",NA,"Mora em Jeremoabo, vai se programar para agendar","06/04 Aúdio+ ligação",NA,NA,NA,NA,NA
+2024-04-06,"~Jairo (Jairo Daniel de Queiroz)","Masculino",NA,NA,NA,75991428868,"Blusa vermelha",NA,"Esta trabalhando em outra cidade, retorna dia 30/04, entra em contato","06/04 Ligação",NA,NA,NA,NA,NA
+2024-04-06,"~Izabelcristianafontes12345","Masculino",NA,NA,NA,82981660436,"Ponte Metálica",NA,NA,"06/04 Aúdio+ ligação (não atendeu)",NA,NA,NA,NA,NA
+2024-04-06,"~erivaniamari32","Feminino",NA,NA,NA,75991803755,"Ponte Metálica",NA,NA,"06/04 ligação (não atendeu)",NA,NA,NA,NA,NA
+2024-04-06,"~Afonso Vieira","Masculino",NA,NA,NA,74988100354,"Lago Aurora",NA,NA,"06/04 ligação",NA,NA,NA,NA,"Informou que mora em Curaça-BA, e não tem como esta vindo a cidade"
+2024-04-06,"~Alcione Barros",NA,NA,NA,NA,82982062061,"Ponte Metálica",NA,NA,"06/04 Aúdio","08/04 ligação",NA,NA,NA,NA
+2024-04-06,"~Cicero","Masculino",NA,NA,NA,75988159246,"Lago Aurora",NA,NA,"08/04 ligação (não atendeu)",NA,NA,NA,NA,NA
+2024-04-06,"~Valdemir Messias","Masculino",NA,NA,NA,11910296335,"Lago Aurora",NA,NA,"08/04 ligação (não atendeu)",NA,NA,NA,NA,NA
+2024-04-06,"Fabio Santos","Masculino",NA,NA,NA,75992915243,"Lago Aurora",NA,"Ligar as 17:00h","08/04 ligação",NA,NA,NA,NA,NA
+2024-04-06,"~Jociel e Familia","Masculino",NA,NA,NA,82999797955,"Ponte Metálica",NA,NA,"08/04 aúdio wpp","08/04  D.Anna wa",NA,NA,NA,NA
+2024-04-06,"~Marcia","Feminino",NA,NA,NA,75991622042,"Ponte Metálica",NA,NA,"08/04 aúdio wpp","08/04  D.Anna wa",NA,NA,NA,NA
+2024-04-06,"Sinze",NA,NA,NA,NA,82982069224,"Ponte Metálica",NA,NA,"08/04 D.Anna wa",NA,NA,NA,NA,NA
+2024-04-07,"Maria","Feminino",NA,"Alagoas",NA,82981337572,"Ponte Metálica",NA,"Paciente mora em alagoas, não tem condições de esta vindo a paulo afonso.","08/04  D.Anna wa",NA,NA,NA,NA,NA
+2024-04-07,"Joan","Masculino",NA,NA,NA,75983420278,"Lago Aurora",NA,"Paciente trabalha em sergipe, ligar no final do mês para agendar","08/04  D.Anna wa",NA,NA,NA,NA,NA
+2024-04-07,"Jorge Leandro","Masculino",NA,NA,NA,75992130915,"Lago Aurora",NA,NA,"08/04  D.Anna wa","08/04 ligação",NA,NA,NA,NA
+2024-04-07,"Ana Andrade","Feminino",NA,NA,NA,82998353784,"Ponte Metálica",NA,NA,"08/04  D.Anna wa",NA,NA,NA,NA,NA
+2024-04-07,"Adilson","Masculino",NA,NA,NA,75999996787,"Lago Aurora",NA,NA,"08/04  D.Anna wa",NA,NA,NA,NA,NA
+2024-04-07,"Avanildo Claudiano da paz","Masculino",NA,NA,NA,82981743982,"Ponte Metálica",NA,NA,"08/04  D.Anna wa",NA,NA,NA,NA,NA
+2024-04-07,"Ceiça Lima","Feminino",NA,NA,NA,75983524544,"Ponte Metálica",NA,NA,"08/04  D.Anna wa",NA,NA,NA,NA,NA
+2024-04-07,"Fernando Barbosa de Souza","Masculino",NA,NA,NA,11982512721,"Blusa vermelha",NA,NA,"08/04  D.Anna wa",NA,NA,NA,NA,NA
+2024-04-07,"Jeferson David","Masculino",NA,NA,NA,75992054518,"Lago Aurora",NA,NA,"08/04  D.Anna wa",NA,NA,NA,NA,"Ligar as 14:00h"
+2024-04-08,"~Jeminson","Masculino",NA,NA,NA,75998396989,"Ponte Metálica",NA,NA,"08/04  D.Anna wa",NA,NA,NA,NA,NA
+2024-04-08,"~Rozineide","Feminino",NA,"Minas Gerais",NA,34984283896,"Lago Aurora",NA,NA,"08/04  D.Anna wa",NA,NA,NA,"Fim","Foi embora, para Minas, tava de passagem :)"
+2024-04-08,"~Veerlem",NA,NA,NA,NA,75991439307,"Ponte Metálica",NA,NA,"08/04  D.Anna wa",NA,NA,NA,NA,NA
+2024-04-08,"~Alcineia Souza","Feminino",NA,NA,NA,75998179677,NA,NA,NA,"08/04  D.Anna wa",NA,NA,NA,NA,NA
+2024-04-08,"~Robson Ramalho","Masculino",NA,NA,NA,17988157464,"Ponte Metálica",NA,NA,"08/04  D.Anna wa",NA,NA,NA,NA,NA
+2024-04-08,"~andradeana5983","Feminino",NA,NA,NA,82998353784,"Ponte Metálica",NA,NA,"08/04 Aúdio wpp",NA,NA,NA,NA,NA
+2024-04-08,"~Daniel","Masculino",NA,NA,NA,82981539473,"Ponte Metálica",NA,NA,"08/04 Aúdio wpp",NA,NA,NA,NA,NA
