@@ -24,7 +24,8 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
-            any::readxl       
+            any::readxl
+            any::dplyr
             
       - name: Execute Script
         run: |
