@@ -1,6 +1,5 @@
 library(readxl)
 library(dplyr)
-library(stringr)
 library(lubridate)
 
 lead <- read_excel("Lead.xlsx")
@@ -13,8 +12,13 @@ formatar_moeda <- function(valor) {
   paste('R$', format(valor, big.mark = ".", decimal.mark = ',', scientific = FALSE, nsmall = 2))
 }
 
+nomes_meses <- c("jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez")
+
+# Calcular informações
 ultima_atualizacao <- format(max(lead$Data), '%d/%m/%Y')
-mes_atual <- str_to_lower(month(max(lead$Data), label = TRUE, abbr = TRUE, locale = "pt_BR.UTF-8"))
+
+mes_numero <- month(max(lead$Data))
+mes_atual <- nomes_meses[mes_numero]
 ano_atual <- year(max(lead$Data))
 
 total_leads_ano <- lead %>%
@@ -23,43 +27,43 @@ total_leads_ano <- lead %>%
   pull(total_leads_ano)
 
 total_leads_mes <- lead %>%
-  filter(month(Data) == max(month(Data))) %>%
+  filter(month(Data) == mes_numero) %>%
   summarise(total_leads_mes = n()) %>%
   pull(total_leads_mes)
 
 fechou_orcamento_mes <- lead %>%
-  filter(month(Data) == max(month(Data))) %>%
+  filter(month(Data) == mes_numero) %>%
   filter(Status == "Fechou orçamento") %>%
   summarise(fechou_orcamento_mes = n()) %>%
   pull(fechou_orcamento_mes)
 
 agendamentos_mes <- lead %>%
-  filter(month(Data) == max(month(Data))) %>%
+  filter(month(Data) == mes_numero) %>%
   filter(AGENDAMENTO == "SIM") %>%
   summarise(agendamentos_mes = n()) %>%
   pull(agendamentos_mes)
 
 comparecimentos_mes <- lead %>%
-  filter(month(Data) == max(month(Data))) %>%
+  filter(month(Data) == mes_numero) %>%
   filter(COMPARECIMENTO == "SIM") %>%
   summarise(comparecimentos_mes = n()) %>%
   pull(comparecimentos_mes)
 
 vendas_mes <- lead %>%
-  filter(month(Data) == max(month(Data))) %>%
+  filter(month(Data) == mes_numero) %>%
   filter(VENDA == "SIM") %>%
   summarise(vendas_mes = n()) %>%
   pull(vendas_mes)
 
 faturamento_mes <- lead %>%
-  filter(month(Data) == max(month(Data))) %>%
+  filter(month(Data) == mes_numero) %>%
   summarise(faturamento_mes = sum(FATURAMENTO, na.rm = TRUE)) %>%
   pull(faturamento_mes)
 
 resumo <- paste("*Relatório de Leads*",
                 sprintf("Leads no ano: %d", total_leads_ano),
                 "",
-                sprintf("Resultados no mês (%s/%d):", mes_atual, ano_atual),  # Mês e ano
+                sprintf("Resultados no mês (%s/%d):", mes_atual, ano_atual),  # Mês e ano usando nomes_meses
                 sprintf("Leads: %d", total_leads_mes),
                 sprintf("Orçamentos fechados: %d", fechou_orcamento_mes),
                 sprintf("Agendamentos: %d", agendamentos_mes),
