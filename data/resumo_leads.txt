@@ -1,5 +1,12 @@
-Leads
+*Relatório de Leads*
 Total no ano: 773
+
+Resultados no mês:
 Total no mês: 20
-Fechou orçamento no mês: 0
+Orçamentos fechados: 0
+Agendamentos: 4
+Comparecimentos: 0
+Vendas: 0
+Faturamento: R$ 0,00
+
 Última atualização: 05/10/2024
