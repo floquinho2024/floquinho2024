@@ -1,0 +1,3 @@
+Total de leads: 200
+Leads da semana: 50
+Leads do dia: 5
