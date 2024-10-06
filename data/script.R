@@ -1,5 +1,6 @@
 library(readxl)
 library(dplyr)
+library(stringr)
 library(lubridate)
 
 lead <- read_excel("Lead.xlsx")
