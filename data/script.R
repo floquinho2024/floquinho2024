@@ -55,10 +55,10 @@ faturamento_mes <- lead %>%
   pull(faturamento_mes)
 
 resumo <- paste("*Relatório de Leads*",
-                sprintf("Total no ano: %d", total_leads_ano),
+                sprintf("Leads no ano: %d", total_leads_ano),
                 "",
                 "Resultados no mês:",
-                sprintf("Total no mês: %d", total_leads_mes),
+                sprintf("Leads: %d", total_leads_mes),
                 sprintf("Orçamentos fechados: %d", fechou_orcamento_mes),
                 sprintf("Agendamentos: %d", agendamentos_mes),
                 sprintf("Comparecimentos: %d", comparecimentos_mes),
