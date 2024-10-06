@@ -8,6 +8,10 @@ saveRDS(lead, file = "data/lead_rds.rds")
 write.csv(lead, file = "data/lead.csv", row.names = FALSE)
 
 # Criar o resumo para Twilio
+formatar_moeda <- function(valor) {
+  paste('R$', format(valor, big.mark = ".", decimal.mark = ',', scientific = FALSE, nsmall = 2))
+}
+
 ano_corrente <- max(year(lead$Data))
 ultima_atualizacao <- format(max(lead$Data), '%d/%m/%Y')
 
@@ -27,15 +31,42 @@ fechou_orcamento_mes <- lead %>%
   summarise(fechou_orcamento_mes = n()) %>%
   pull(fechou_orcamento_mes)
 
-# Criar o resumo em texto
-resumo <- paste("Leads",
+agendamentos_mes <- lead %>%
+  filter(month(Data) == max(month(Data))) %>%
+  filter(AGENDAMENTO == "SIM") %>%
+  summarise(agendamentos_mes = n()) %>%
+  pull(agendamentos_mes)
+
+comparecimentos_mes <- lead %>%
+  filter(month(Data) == max(month(Data))) %>%
+  filter(COMPARECIMENTO == "SIM") %>%
+  summarise(comparecimentos_mes = n()) %>%
+  pull(comparecimentos_mes)
+
+vendas_mes <- lead %>%
+  filter(month(Data) == max(month(Data))) %>%
+  filter(VENDA == "SIM") %>%
+  summarise(vendas_mes = n()) %>%
+  pull(vendas_mes)
+
+faturamento_mes <- lead %>%
+  filter(month(Data) == max(month(Data))) %>%
+  summarise(faturamento_mes = sum(FATURAMENTO, na.rm = TRUE)) %>%
+  pull(faturamento_mes)
+
+resumo <- paste("*Relatório de Leads*",
                 sprintf("Total no ano: %d", total_leads_ano),
+                "",
+                "Resultados no mês:",
                 sprintf("Total no mês: %d", total_leads_mes),
-                sprintf("Fechou orçamento no mês: %d", fechou_orcamento_mes),
+                sprintf("Orçamentos fechados: %d", fechou_orcamento_mes),
+                sprintf("Agendamentos: %d", agendamentos_mes),
+                sprintf("Comparecimentos: %d", comparecimentos_mes),
+                sprintf("Vendas: %d", vendas_mes),
+                sprintf("Faturamento: %s", formatar_moeda(faturamento_mes)),
+                "",
                 sprintf("Última atualização: %s", ultima_atualizacao),
                 sep = "\n")
-
-writeLines(resumo, "data/resumo_leads.txt")
 
 
 ## Orçamentos
