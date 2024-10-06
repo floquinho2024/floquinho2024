@@ -20,9 +20,18 @@ total_leads_mes <- lead %>%
   filter(month(Data) == max(month(Data))) %>%
   summarise(total_leads_mes = n()) %>%
   pull(total_leads_mes)
+
+fechou_orcamento_mes <- lead %>%
+  filter(month(Data) == max(month(Data))) %>%
+  filter(Status == "Fechou orçamento") %>%
+  summarise(fechou_orcamento_mes = n()) %>%
+  pull(fechou_orcamento_mes)
+
+# Criar o resumo em texto
 resumo <- paste("Leads",
                 sprintf("Total no ano: %d", total_leads_ano),
                 sprintf("Total no mês: %d", total_leads_mes),
+                sprintf("Fechou orçamento no mês: %d", fechou_orcamento_mes),
                 sprintf("Última atualização: %s", ultima_atualizacao),
                 sep = "\n")
 
