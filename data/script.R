@@ -12,11 +12,12 @@ formatar_moeda <- function(valor) {
   paste('R$', format(valor, big.mark = ".", decimal.mark = ',', scientific = FALSE, nsmall = 2))
 }
 
-ano_corrente <- max(year(lead$Data))
 ultima_atualizacao <- format(max(lead$Data), '%d/%m/%Y')
+mes_atual <- str_to_lower(month(max(lead$Data), label = TRUE, abbr = TRUE, locale = "pt_BR.UTF-8"))
+ano_atual <- year(max(lead$Data))
 
 total_leads_ano <- lead %>%
-  filter(year(Data) == ano_corrente) %>%
+  filter(year(Data) == ano_atual) %>%
   summarise(total_leads_ano = n()) %>%
   pull(total_leads_ano)
 
@@ -57,7 +58,7 @@ faturamento_mes <- lead %>%
 resumo <- paste("*Relatório de Leads*",
                 sprintf("Leads no ano: %d", total_leads_ano),
                 "",
-                "Resultados no mês:",
+                sprintf("Resultados no mês (%s/%d):", mes_atual, ano_atual),  # Mês e ano
                 sprintf("Leads: %d", total_leads_mes),
                 sprintf("Orçamentos fechados: %d", fechou_orcamento_mes),
                 sprintf("Agendamentos: %d", agendamentos_mes),
@@ -68,7 +69,7 @@ resumo <- paste("*Relatório de Leads*",
                 sprintf("Última atualização: %s", ultima_atualizacao),
                 sep = "\n")
 
-writeLines(resumo, "data/resumo_leads.txt")
+writeLines(resumo, "resumo_leads.txt")
 
 
 ## Orçamentos
