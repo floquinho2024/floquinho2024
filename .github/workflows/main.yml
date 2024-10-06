@@ -26,6 +26,7 @@ jobs:
           packages: |
             any::readxl
             any::dplyr
+            any::stringr
             any::lubridate
             
       - name: Execute Script
