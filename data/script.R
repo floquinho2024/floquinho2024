@@ -74,7 +74,7 @@ resumo <- paste("*Relatório de Leads*",
                 sprintf("Última atualização: %s", ultima_atualizacao),
                 sep = "\n")
 
-writeLines(resumo, "resumo_leads.txt")
+writeLines(resumo, "data/resumo_leads.txt")
 
 
 ## Orçamentos
