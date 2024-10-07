@@ -27,36 +27,36 @@ total_leads_ano <- lead %>%
   pull(total_leads_ano)
 
 total_leads_mes <- lead %>%
-  filter(month(Data) == mes_numero) %>%
+  filter(month(Data) == mes_numero & year(Data) == ano_atual) %>%
   summarise(total_leads_mes = n()) %>%
   pull(total_leads_mes)
 
 fechou_orcamento_mes <- lead %>%
-  filter(month(Data) == mes_numero) %>%
+  filter(month(Data) == mes_numero & year(Data) == ano_atual) %>%
   filter(Status == "Fechou orçamento") %>%
   summarise(fechou_orcamento_mes = n()) %>%
   pull(fechou_orcamento_mes)
 
 agendamentos_mes <- lead %>%
-  filter(month(Data) == mes_numero) %>%
+  filter(month(Data) == mes_numero & year(Data) == ano_atual) %>%
   filter(AGENDAMENTO == "SIM") %>%
   summarise(agendamentos_mes = n()) %>%
   pull(agendamentos_mes)
 
 comparecimentos_mes <- lead %>%
-  filter(month(Data) == mes_numero) %>%
+  filter(month(Data) == mes_numero & year(Data) == ano_atual) %>%
   filter(COMPARECIMENTO == "SIM") %>%
   summarise(comparecimentos_mes = n()) %>%
   pull(comparecimentos_mes)
 
 vendas_mes <- lead %>%
-  filter(month(Data) == mes_numero) %>%
+  filter(month(Data) == mes_numero & year(Data) == ano_atual) %>%
   filter(VENDA == "SIM") %>%
   summarise(vendas_mes = n()) %>%
   pull(vendas_mes)
 
 faturamento_mes <- lead %>%
-  filter(month(Data) == mes_numero) %>%
+  filter(month(Data) == mes_numero & year(Data) == ano_atual) %>%
   summarise(faturamento_mes = sum(FATURAMENTO, na.rm = TRUE)) %>%
   pull(faturamento_mes)
 
