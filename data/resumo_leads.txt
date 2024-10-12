@@ -1,12 +1,12 @@
 *Relatório de Leads*
-Leads no ano: 773
+Leads no ano: 781
 
 Resultados no mês (out/2024):
-Leads: 20
+Leads: 28
 Orçamentos fechados: 0
-Agendamentos: 4
+Agendamentos: 5
 Comparecimentos: 0
 Vendas: 0
 Faturamento: R$ 0,00
 
-Última atualização: 05/10/2024
+Última atualização: 08/10/2024
